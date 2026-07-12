@@ -6,6 +6,23 @@ A project that uses frontier and open-source LLMs to port Python code into high-
 
 The core idea across all three notebooks: give an LLM a Python snippet plus details about your machine (OS, CPU, compiler toolchain), ask it to generate the fastest possible equivalent in a compiled language, then compile and run both versions to compare execution time. Speedups of 10x–1000x+ are typical since the generated code skips Python's interpreter overhead entirely.
 
+
+## Application Preview
+
+### Code Generation Interface
+
+<p align="center">
+  <img src="asset/codegen_output_1_ui.png" alt="Code Generator Interface" width="900">
+</p>
+
+### Benchmark Results
+
+<p align="center">
+  <img src="asset/codegen_output_2_benchmark.png" alt="Code Generator Benchmark Results" width="900">
+</p>
+
+
+
 ## Files
 
 | File | Description |
